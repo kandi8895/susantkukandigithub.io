@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.hero{
+    position:  relative;
+    width: 100%;
+    height: 100vh;
+    background: #cad1d7df;
+}
+
+nav{
+        display: flex;
+        width: 70%;
+        margin: auto;
+        padding: 0px 100px;
+        align-items: center;
+        justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block; 
+    list-style: none;
+    margin: 30px 30px; 
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.datel{
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.datel h1{
+    font-size: 70px;
+    color:#212121;
+    margin-bottom: 30px;
+}
+
+span{
+    color: blue;
+}
+
+.datel p{
+    color: #39040494;
+    line-height: 30px;
+}
+
+.datel a{
+    background: rgb(59, 0, 235);
+    padding: 5px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff4f4;
+    margin: 15px 0px;
+    border-radius: 5px;
+}
+
+.image{
+    width: 10%;
+    height: 89%;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+.image img{
+    height: 80%;
+    position: absolute;
+    left: -10%;
+    bottom: 0;
+    transform: translateX(-90%);
+    transition: bottom 2s, left 1s;
+}
+
+.datel a:hover{
+    color: rgb(213, 63, 63);
+}
+
+.image:hover .background{
+    bottom: 10px;
+}
+
+.image:hover .kumar{
+    left: 10%;
+}
